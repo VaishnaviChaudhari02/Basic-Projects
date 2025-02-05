@@ -1,1 +1,1 @@
-A Bais HTML CSS Projects to showcase the we design skills
+A Bais HTML CSS Projects to showcase the web design skills
