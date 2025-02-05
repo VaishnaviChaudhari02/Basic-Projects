@@ -1,0 +1,118 @@
+*{
+    margin :0px;
+    padding:0px;
+}
+#main{
+    background-color: black;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+#logo img{
+    padding:10px 0px 10px 100px;
+}
+#navbar{
+    color:white;
+    display:flex;
+    gap:40px;
+    align-items: center;
+    padding:0px 70px 0px 0px;
+}
+#navbar h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+    font-size:18px;
+
+}
+#navbar button{
+    padding:10px;
+    color:white;
+    background-color: black;
+    border:2px solid white;
+    border-radius:8px;
+    font-weight:500;
+    font-size:18px;
+    width:150px;
+}
+#hero_section{
+}
+#hero_section img{
+    height:568px;
+    width:100%;
+    filter:brightness(10%);
+    z-index: 1;
+}
+
+#line_one{
+    border:1px solid white;
+    position:absolute;
+    top:58px;
+    width:0px;
+    height:240px;
+    left:106px;
+}
+#social_media{
+    position:absolute;
+    top:310px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    left:100px;
+
+
+}
+#social_media i{
+
+}
+#line_two{
+    border:1px solid white;
+    position:absolute;
+    top:390px;
+    width:0px;
+    height:240px;
+    left:106px;
+
+}
+#main_content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top:190px;
+    left:250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main_content h2{
+    color:white;
+    font-size: 50px;
+}
+#main_content h1{
+    color:white;
+    font-size:130px;
+    text-transform: uppercase;
+ 
+}
+#main_content button{
+    margin-top:20px;
+    color:blue;
+    padding:10px;
+    background-color: white;
+    outline:none;
+    border:1px solid white;
+    width:120px;
+    font-size:16px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px 1px white;/* first value x-offset sec value y offset third value blur effect*/
+}
+#pep_img img{
+    position:absolute;
+    filter:none;
+    height:577px;
+    width:520px;
+    left:845px;
+    top:60px;
+    /* box-shadow: inset -5px 20px 100px 30px blue;
+    border-radius: 50px; */
+}
